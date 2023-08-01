@@ -1,42 +1,40 @@
-Storing and Retrieving Data – Final project
-Max. Group members: 5
-Percentage for the final score: 50%
-Delivery date:
-• December 17, 2022, until 23H59.
-Defence (online only):
-• 19th and 20th of December 2022.
-Final Deliverables:
-• A report that contains: 1) cover page with the names of the team members and student numbers, 2)
+# Storing and Retrieving Data – Final project
+## Max. Group members: 5
+## Percentage for the final score: 50%
+### Delivery date:
+- December 17, 2022, until 23H59.
+- Defence (online only): 19th and 20th of December 2022.
+## Final Deliverables:
+- A report that contains: 1) cover page with the names of the team members and student numbers, 2)
 one-page description of the fictitious business process, 3) a figure with the ERD. The names of the entities
 and its attributes must be visible in the ERD.
-• One single SQL script to recreate the database and the existing data on it.
-• One SQL script with the queries from literal F, including a comment about the efficiency of each query
-(interpretation of the query execution plan).
-NOTES:
-• Deliveries is via Moodle, not via email. Only one group member should make the submission.
-• For every day delayed in the delivery you will be penalized 1 point (up to 5).
-• A reference solution for this project will not be available.
-• Defence is mandatory, missing the defence will have a penalization of 2 points to the team. However,
+- One single SQL script to recreate the database and the existing data on it.
+- One SQL script with the queries from literal F, including a comment about the efficiency of each query (interpretation of the query execution plan).
+## NOTES:
+- Deliveries is via Moodle, not via email. Only one group member should make the submission.
+- For every day delayed in the delivery you will be penalized 1 point (up to 5).
+- A reference solution for this project will not be available.
+- Defence is mandatory, missing the defence will have a penalization of 2 points to the team. However,
 not all members need to be present. At least one member must be present.
-• All feedback will be provided during the defence, no additional feedback will be provided after
+- All feedback will be provided during the defence, no additional feedback will be provided after
 defence.
-Description
-A. Think about any commercial business process of a product or service that needs a relational database
+# Description
+- A. Think about any commercial business process of a product or service that needs a relational database
 to work (e.g., online shops, booking systems, food delivery apps, restaurant management, etc).
 Describe it in 1 page.
-B. Design and create an ERD in MySQL workbench. Do not forget to consider the three normal forms
+- B. Design and create an ERD in MySQL workbench. Do not forget to consider the three normal forms
 when you design your database model. The names of the entities and its attributes must be visible
 in the ERD. Your ERD should not have less than 8 tables.
-C. Create two triggers: (1) one for updates (you can choose any updating process, for example, if a
+- C. Create two triggers: (1) one for updates (you can choose any updating process, for example, if a
 product is sold, the trigger may update the available stock of products). And (2) a trigger that inserts
 a row in a “log” table (your ERD should include a log table). For defence, you should have ready the
 scripts to demonstrate that the trigger works.
-D. Create a physical relational database based on your ERD.
-E. Insert some data into you newly created database (20 or 30 rows of transactions would be enough).
+- D. Create a physical relational database based on your ERD.
+- E. Insert some data into you newly created database (20 or 30 rows of transactions would be enough).
 Make sure that you have transactions that involve at least 2 consecutive years. If you want to add
 more than just a few rows, feel free to look for openly available dataset and/or generate random
 data.
-F. Using MySQL, write the queries to retrieve the following information:
+- F. Using MySQL, write the queries to retrieve the following information:
 1. List all the customer’s names, dates, and products or services used/booked/rented/bought by
 these customers in a range of two dates.
 2. List the best three customers/products/services/places (you are free to define the criteria for
